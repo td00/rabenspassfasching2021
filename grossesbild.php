@@ -66,8 +66,8 @@ function goBack() {
 			</div>
 		</footer>	
 	</div>
-	
-	<script src="http://code.jquery.com/jquery-1.11.1.min.js"></script>
+
+	<script type="text/javascript" src="js/jquery-3.5.1.js"></script>
 	<script type="text/javascript" src="js/jquery.bxslider.min.js"></script>
 	<script type="text/javascript" src="js/jquery.placeholder.js"></script>
 	<script type="text/javascript" src="js/imagesloaded.pkgd.min.js"></script>
