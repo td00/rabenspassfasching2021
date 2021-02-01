@@ -103,7 +103,7 @@ function goBack() {
 </html>
     <?php
 } else { 
-    die('<meta http-equiv="refresh" content="0; URL=gallerie.html" />); 
+    die('<meta http-equiv="refresh" content="0; URL=gallerie.html" />'); 
 }
 //<meta http-equiv="refresh" content="0; URL=gallerie.html"'
 ?>
