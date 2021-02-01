@@ -842,17 +842,12 @@ input.white[type=submit]:hover{
 }
 .person-description address{
 	padding: 13px 0 22px 25px;
-	background: url(../images/ico_phone-red.png) no-repeat 0 15px;
+	background: url(../images/ico_email-red.png) no-repeat 0 15px;
 }
 .person-description .email {
 	margin-left: 40px;
 	padding-left: 25px;
 	background: url(../images/ico_email-red.png) no-repeat 0 2px;
-}
-.person-description .facebook{
-	margin-left: 40px;
-	padding-left: 25px;
-	background: url(../images/ico_facebook-red.png) no-repeat 0 2px;
 }
 .person-description address a{
 	color: #9e9994;
