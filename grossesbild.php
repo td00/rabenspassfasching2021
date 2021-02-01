@@ -56,18 +56,44 @@ function goBack() {
   window.history.back();
 }
 </script>
-				</section>
+<div class="top-blue-border"></div>
+		<footer id="footer">
+			<div class="footer-holder">
+				<div class="footer-frame">
+					<div class="footer-content">
+						<div class="col-holder">
+							<div class="col_wrap">
+								<div class="col">
+									<h3>Veranstalter:</h3>
+									<address class="map">Samtgemeinde Isenb&uuml;ttel, Gutsstr. 11, 38550 Isenb&uuml;ttel</address>
+									<address class="mail"><a href="mailto:fasching@rabenspass.de">fasching@rabenspass.de</a></address>
+									<address class="phone">+49 5374 8828</address>
+								</div>
+							</div>
+							<div class="col_wrap">
+								<div class="col">
+									
+								</div>
+							</div>
+							<div class="col_wrap">
+	
+							</div>
+							<div class="col_wrap"><br /><br />
+							<a href="https://www.rabenspass.de/index.php?zeige=impressum">Impressum</a>
+							</div>
+						</div>
+					</div>
 					<div class="footer-bottom">
 						<div class="holder">
-							<p>Copyright 2014 Kid’ school. All rights reserved.</p>
+							<p><a href="https://thiesmueller.de">Design</a> | <a href="https://www.rabenspass.de/index.php?zeige=impressum">Impressum</a></p>
 						</div>
 					</div>
 				</div>
 			</div>
 		</footer>	
 	</div>
-
-	<script type="text/javascript" src="js/jquery-3.5.1.js"></script>
+	
+	<script type="text/javascript" src="js/jquery-1.11.1.min.js"></script>
 	<script type="text/javascript" src="js/jquery.bxslider.min.js"></script>
 	<script type="text/javascript" src="js/jquery.placeholder.js"></script>
 	<script type="text/javascript" src="js/imagesloaded.pkgd.min.js"></script>
@@ -77,7 +103,7 @@ function goBack() {
 </html>
     <?php
 } else { 
-    die('hello'); 
+    die('<meta http-equiv="refresh" content="0; URL=gallerie.html" />); 
 }
 //<meta http-equiv="refresh" content="0; URL=gallerie.html"'
 ?>
