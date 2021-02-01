@@ -41,6 +41,10 @@ if(isset($_GET['bild'])) {
                         <h1>Bild:</h1>
                         <?php  
                     }
+                    ?>
+                    <button type="button" class="btn btn-secondary" onclick="goBack()">Zur&uuml;ck</button>
+                    <br />
+                    <?php
                     echo '<img src="zeichnungen/'.$_GET['bild'].'" alt="'.$_GET['alt'].'" />';
                     ?>
 					<br />
