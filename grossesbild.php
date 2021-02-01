@@ -31,9 +31,17 @@ if(isset($_GET['bild'])) {
 			<div class="dvdr"></div>
 			<div class="container">
 				<section id="main">
-					<h1>Bild von <?php echo $_GET['vorname'];?>:</h1>
+                    <?php
+                    if(isset($_GET['vorname'])) {
+                    ?>
+                    <h1>Bild von <?php echo $_GET['vorname'];?>:</h1>
 					<?php
-                    echo '<img src="zeichnungen/'.$_GET['bild'].'" alt="'.$_GET['alttext'].'" />';
+                    } else {
+                        ?>
+                        <h1>Bild:</h1>
+                        <?php  
+                    }
+                    echo '<img src="zeichnungen/'.$_GET['bild'].'" alt="'.$_GET['alt'].'" />';
                     ?>
 					<br />
 					<button type="button" class="btn btn-secondary" onclick="goBack()">Zur&uuml;ck</button>
