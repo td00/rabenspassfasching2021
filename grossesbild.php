@@ -34,7 +34,7 @@ if(isset($_GET['bild'])) {
                     <?php
                     if(isset($_GET['vorname'])) {
                     ?>
-                    <h1>Bild von <?php echo $_GET['vorname'];?> <?php echo $_GET['nachname'];?> (<?php echo $_GET['alter'];?>):</h1>
+                    <h1>Bild von <?php echo $_GET['vorname'];?> <?php echo $_GET['nachname']; if(isset($_GET['alter'])) {?> (<?php echo $_GET['alter'];?>)<?php }?>:</h1>
 					<?php
                     } else {
                         ?>
