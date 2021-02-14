@@ -34,7 +34,7 @@ if(isset($_GET['bild'])) {
                     <?php
                     if(isset($_GET['vorname'])) {
                     ?>
-                    <h1>Bild von <?php echo $_GET['vorname'];?>:</h1>
+                    <h1>Bild von <?php echo $_GET['vorname'];?> <?php echo $_GET['nachname'];?> (<?php echo $_GET['alter'];?>):</h1>
 					<?php
                     } else {
                         ?>
@@ -45,8 +45,35 @@ if(isset($_GET['bild'])) {
                     <button type="button" class="btn btn-secondary" onclick="goBack()">Zur&uuml;ck</button>
                     <br />
                     <?php
+					$kgs = $_GET['kg'];
+					if ($kgs == "kg1") {
+						$kgf="DRK Kita Calberlah I";
+					} elseif ($kgs == "kg2") {
+						$kgf="DRK Kita Calberlah Schulstraße";
+					} elseif ($kgs == "klg3") {
+						$kgf="Ev.-luth. Christus Kindertagesstätte Calberlah";
+					} elseif ($kgs == "kg4") {
+						$kgf="Ev. luth. Kita St. Marien Isenbüttel";
+					} elseif ($kgs == "kg5") {
+						$kgf="DRK Kita Isenbüttel Wendenhof";
+					} elseif ($kgs == "kg6") {
+						$kgf="DRK Kita Isenbüttel Schulstraße";
+					} elseif ($kgs == "kg7") {
+						$kgf="DRK Kita Ribbesbüttel";
+					} elseif ($kgs == "kg8") {
+						$kgf="DRK Kita Wasbüttel";
+					} else {
+						$kgf="ungültig";
+					}
+
                     echo '<img src="zeichnungen/'.$_GET['bild'].'" alt="'.$_GET['alt'].'" />';
-                    ?>
+					if(isset($_GET['kg'])) {
+						echo 'Kindergarten: '.$kgf;
+						echo "<br />";
+					} else {
+						echo '<br />';
+					}
+					?>
 					<br />
 					<button type="button" class="btn btn-secondary" onclick="goBack()">Zur&uuml;ck</button>
 
