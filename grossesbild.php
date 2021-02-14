@@ -69,8 +69,8 @@ if(isset($_GET['bild'])) {
                     echo '<img src="zeichnungen/'.$_GET['bild'].'" alt="'.$_GET['alt'].'" />';
 					echo "<br /> <br />";
 					if(isset($_GET['kg'])) {
-						echo '<b>Kindergarten: '.$kgf;
-						echo "</b><br />";
+						echo '<h3>Kindergarten: '.$kgf;
+						echo "</h3><br />";
 					} else {
 						echo '<br />';
 					}
