@@ -50,7 +50,7 @@ if(isset($_GET['bild'])) {
 						$kgf="DRK Kita Calberlah I";
 					} elseif ($kgs == "kg2") {
 						$kgf="DRK Kita Calberlah Schulstraße";
-					} elseif ($kgs == "klg3") {
+					} elseif ($kgs == "kg3") {
 						$kgf="Ev.-luth. Christus Kindertagesstätte Calberlah";
 					} elseif ($kgs == "kg4") {
 						$kgf="Ev. luth. Kita St. Marien Isenbüttel";
