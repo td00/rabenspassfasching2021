@@ -1,0 +1,15 @@
+<li class="grid-item kg3">
+    <a href="grossesbild.php?bild=kg3_nachname_vorname.jpg&kg=kg3"><img src="zeichnungen/kg3_nachname_vorname.jpg" alt="" />
+    <div class="mask"></div></a>
+<li class="grid-item kg6">
+    <a href="grossesbild.php?bild=kg6_nachname_vorname.png&kg=kg6"><img src="zeichnungen/kg6_nachname_vorname.png" alt="" />
+    <div class="mask"></div></a>
+<li class="grid-item kg3">
+    <a href="grossesbild.php?bild=kg3_nachname_vorname-2.jpg&kg=kg3"><img src="zeichnungen/kg3_nachname_vorname-2.jpg" alt="" />
+    <div class="mask"></div></a>
+<li class="grid-item kg3">
+    <a href="grossesbild.php?bild=kg3_v_Magda-Martha_Melvin_n_M_a_3.jpg&vorname=MAGDA-MARTHA MELVIN&nachname=M.&alter=3&kg=kg3"><img src="zeichnungen/kg3_v_Magda-Martha_Melvin_n_M_a_3.jpg" alt="" />
+    <div class="mask"></div></a>
+<li class="grid-item kg8">
+    <a href="grossesbild.php?bild=kg8_nachname_vorname.jpeg&kg=kg8"><img src="zeichnungen/kg8_nachname_vorname.jpeg" alt="" />
+    <div class="mask"></div></a>

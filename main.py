@@ -34,7 +34,7 @@ class Picture:
                 else:
                     firstname = firstname + ' ' + workingArray[index].upper()
                 index += 1
-            
+
             if(not( firstname == '')):
                 self.variables.append(firstname)
             else:
@@ -53,10 +53,10 @@ class Picture:
                 else:
                     familyName = familyName + ' ' + workingArray[index].upper()
                 index += 1
-            
+
             if(workingArray[index][-4:-3] == '.' and ( not workingArray[index][0] == '.')):
                 name, fileEnd = workingArray[index].split('.')
-                familyName = familyName + name  
+                familyName = familyName + name
 
             if(not( familyName == '')):
                 self.variables.append(familyName)
@@ -76,7 +76,7 @@ class Picture:
         else:
             self.variables.append('-1')
 
-    
+
     def generateString(self):
         #alwasy when enty exists, add that to string
         output = "<li class=\"grid-item " + str(self.variables[0]) + "\">\n    <a href=\"grossesbild.php?"
@@ -84,7 +84,7 @@ class Picture:
         if(not self.variables[1] == '-1'):
             output = output + "&vorname=" + str(self.variables[1])
         if(not self.variables[2] == '-1'):
-            output = output + "&nachname=" + str(self.variables[2])
+            output = output + "&nachname=" + str(self.variables[2]) + "."
         if(not self.variables[3] == '-1'):
             output = output + "&alter=" + str(self.variables[3])
         output = output + "&kg=" + str(self.variables[0])
@@ -97,7 +97,7 @@ class Picture:
 
 if __name__ == "__main__":
 
-    dirPlace = r".\zeichnungen" #change path here (or maybe wherever the script lies? whatever)
+    dirPlace = r"./zeichnungen" #change path here (or maybe wherever the script lies? whatever)
 
     f = open("htmlCode.invalid", "w")
 
