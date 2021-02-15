@@ -5,11 +5,12 @@ class Picture:
         self.fullName = fullName
         self.variables = []
 
-    def doMagic(self):
-        self.getVariables()
+    def doMagic(self,p):
+        if(self.getVariables(p) < 0):
+            return
         return self.generateString()
 
-    def getVariables(self):
+    def getVariables(self,p):
         #cut string in pieces and fill the variables set accordingly
         #put -1 if non existant
         index = 0
@@ -20,8 +21,10 @@ class Picture:
             self.variables.append(workingArray[index].lower())
             index += 1
         else:
-            print("There is no ID for", self.fullName)
-            return
+            outStr = "there is no ID for " + str(self.fullName) + "\n"
+            p.write(outStr)
+            return -1
+
 
         #firstName (if there is none, ist -1)
         if(workingArray[index].lower () == 'v'):
@@ -75,6 +78,8 @@ class Picture:
                 self.variables.append('-1')
         else:
             self.variables.append('-1')
+        
+        return 0
 
 
     def generateString(self):
@@ -100,6 +105,7 @@ if __name__ == "__main__":
     dirPlace = r"./zeichnungen" #change path here (or maybe wherever the script lies? whatever)
 
     f = open("htmlCode.invalid", "w")
+    p = open("InvalidPictures.csv", 'w')
 
     with os.scandir(dirPlace) as dirs:
         for entry in dirs:
@@ -107,7 +113,7 @@ if __name__ == "__main__":
             #print(entry.name)
             picture = Picture(entry.name, dirPlace)
             #print("This is:", picture.fullName, 'path:', picture.path)
-            string = picture.doMagic()
+            string = picture.doMagic(p)
             if string == None :
                 string = ''
             else:
