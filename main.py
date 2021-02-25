@@ -46,7 +46,7 @@ class Picture:
                     firstname = firstname + ' ' + fname
 
             if(not( firstname == '')):
-                self.variables.append(firstname)
+                self.variables.append(firstname.upper())
             else:
                 self.variables.append('-1')
                 outStr = "1 - Here should be a given Name, but its not " + str(self.fullName) + "\n"
@@ -55,8 +55,8 @@ class Picture:
             self.variables.append('-1')
             outStr = "1 - No given Name " + str(self.fullName) + "\n"
             p.write(outStr)
-            
- 
+
+
         #familyName (if there is none, its -1)
         if(workingArray[index].lower () == 'n'):
             #familyname exist, fill till age
@@ -79,7 +79,7 @@ class Picture:
             if(workingArray[index][-4:-3] == '.' and ( not workingArray[index][0] == '.')):
                 name, fileEnd = workingArray[index].split('.')
                 familyName = familyName + name
-            
+
             if(workingArray[index].lower() == 'v'):
                 outStr = "1 - First Name after Last Name in " + str(self.fullName) + "\n"
                 p.write(outStr)
@@ -115,7 +115,7 @@ class Picture:
             self.variables.append('-1')
             outStr = "1 - No Age " + str(self.fullName) + "\n"
             p.write(outStr)
-        
+
         return 0
 
 
