@@ -1,99 +1,33 @@
+<li class="grid-item kg8">
+    <a href="grossesbild.php?bild=kg8_v_levi.jpg&vorname=LEVI&kg=kg8"><img src="zeichnungen/kg8_v_levi.jpg" alt="" />
+    <div class="mask"></div></a>
+<li class="grid-item kg6">
+    <a href="grossesbild.php?bild=kg6_v_malea.jpg&vorname=MALEA&kg=kg6"><img src="zeichnungen/kg6_v_malea.jpg" alt="" />
+    <div class="mask"></div></a>
+<li class="grid-item kg4">
+    <a href="grossesbild.php?bild=kg4_v_haily.jpg&vorname=HAILY&kg=kg4"><img src="zeichnungen/kg4_v_haily.jpg" alt="" />
+    <div class="mask"></div></a>
+<li class="grid-item kg6">
+    <a href="grossesbild.php?bild=kg6_v_anna.jpg&vorname=ANNA&kg=kg6"><img src="zeichnungen/kg6_v_anna.jpg" alt="" />
+    <div class="mask"></div></a>
 <li class="grid-item kg1">
     <a href="grossesbild.php?bild=kg1_v_tanice.jpg&vorname=TANICE&kg=kg1"><img src="zeichnungen/kg1_v_tanice.jpg" alt="" />
     <div class="mask"></div></a>
 <li class="grid-item kg1">
     <a href="grossesbild.php?bild=kg1_v_haylie.jpg&vorname=HAYLIE&kg=kg1"><img src="zeichnungen/kg1_v_haylie.jpg" alt="" />
     <div class="mask"></div></a>
+<li class="grid-item kg6">
+    <a href="grossesbild.php?bild=kg6_v_pia.jpg&vorname=PIA&kg=kg6"><img src="zeichnungen/kg6_v_pia.jpg" alt="" />
+    <div class="mask"></div></a>
+<li class="grid-item kg6">
+    <a href="grossesbild.php?bild=kg6_v_jesse.jpg&vorname=JESSE&kg=kg6"><img src="zeichnungen/kg6_v_jesse.jpg" alt="" />
+    <div class="mask"></div></a>
+<li class="grid-item kg6">
+    <a href="grossesbild.php?bild=kg6_v_merleamadea.jpg&vorname=MERLEAMADEA&kg=kg6"><img src="zeichnungen/kg6_v_merleamadea.jpg" alt="" />
+    <div class="mask"></div></a>
 <li class="grid-item kg1">
     <a href="grossesbild.php?bild=kg1_v_mats.jpg&vorname=MATS&kg=kg1"><img src="zeichnungen/kg1_v_mats.jpg" alt="" />
     <div class="mask"></div></a>
-<li class="grid-item kg1">
-    <a href="grossesbild.php?bild=kg1_v_jemy.jpg&vorname=JEMY&kg=kg1"><img src="zeichnungen/kg1_v_jemy.jpg" alt="" />
-    <div class="mask"></div></a>
-<li class="grid-item kg3">
-    <a href="grossesbild.php?bild=kg3_v_dorothea.jpg&vorname=DOROTHEA&kg=kg3"><img src="zeichnungen/kg3_v_dorothea.jpg" alt="" />
-    <div class="mask"></div></a>
 <li class="grid-item kg6">
-    <a href="grossesbild.php?bild=kg6_v_manella.jpg&vorname=MANELLA&kg=kg6"><img src="zeichnungen/kg6_v_manella.jpg" alt="" />
-    <div class="mask"></div></a>
-<li class="grid-item kg1">
-    <a href="grossesbild.php?bild=kg1_v_leah.jpg&vorname=LEAH&kg=kg1"><img src="zeichnungen/kg1_v_leah.jpg" alt="" />
-    <div class="mask"></div></a>
-<li class="grid-item kg2">
-    <a href="grossesbild.php?bild=kg2_v_lily.jpg&vorname=LILY&kg=kg2"><img src="zeichnungen/kg2_v_lily.jpg" alt="" />
-    <div class="mask"></div></a>
-<li class="grid-item kg1">
-    <a href="grossesbild.php?bild=kg1_v_martha.jpg&vorname=MARTHA&kg=kg1"><img src="zeichnungen/kg1_v_martha.jpg" alt="" />
-    <div class="mask"></div></a>
-<li class="grid-item kg1">
-    <a href="grossesbild.php?bild=kg1_v_xxx_002.jpg&vorname=XXX 002&kg=kg1"><img src="zeichnungen/kg1_v_xxx_002.jpg" alt="" />
-    <div class="mask"></div></a>
-<li class="grid-item kg1">
-    <a href="grossesbild.php?bild=kg1_v_theo.jpg&vorname=THEO&kg=kg1"><img src="zeichnungen/kg1_v_theo.jpg" alt="" />
-    <div class="mask"></div></a>
-<li class="grid-item kg1">
-    <a href="grossesbild.php?bild=kg1_v_nick.jpg&vorname=NICK&kg=kg1"><img src="zeichnungen/kg1_v_nick.jpg" alt="" />
-    <div class="mask"></div></a>
-<li class="grid-item kg1">
-    <a href="grossesbild.php?bild=kg1_v_xxx_010.jpg&vorname=XXX 010&kg=kg1"><img src="zeichnungen/kg1_v_xxx_010.jpg" alt="" />
-    <div class="mask"></div></a>
-<li class="grid-item kg3">
-    <a href="grossesbild.php?bild=kg3_v_mila.jpg&vorname=MILA&kg=kg3"><img src="zeichnungen/kg3_v_mila.jpg" alt="" />
-    <div class="mask"></div></a>
-<li class="grid-item kg1">
-    <a href="grossesbild.php?bild=kg1_v_linda.jpg&vorname=LINDA&kg=kg1"><img src="zeichnungen/kg1_v_linda.jpg" alt="" />
-    <div class="mask"></div></a>
-<li class="grid-item kg1">
-    <a href="grossesbild.php?bild=kg1_v_bela.jpg&vorname=BELA&kg=kg1"><img src="zeichnungen/kg1_v_bela.jpg" alt="" />
-    <div class="mask"></div></a>
-<li class="grid-item kg3">
-    <a href="grossesbild.php?bild=kg3_v_loenna.jpg&vorname=LOENNA&kg=kg3"><img src="zeichnungen/kg3_v_loenna.jpg" alt="" />
-    <div class="mask"></div></a>
-<li class="grid-item kg1">
-    <a href="grossesbild.php?bild=kg1_v_nina.jpg&vorname=NINA&kg=kg1"><img src="zeichnungen/kg1_v_nina.jpg" alt="" />
-    <div class="mask"></div></a>
-<li class="grid-item kg1">
-    <a href="grossesbild.php?bild=kg1_v_hedy.jpg&vorname=HEDY&kg=kg1"><img src="zeichnungen/kg1_v_hedy.jpg" alt="" />
-    <div class="mask"></div></a>
-<li class="grid-item kg1">
-    <a href="grossesbild.php?bild=kg1_v_emma.jpg&vorname=EMMA&kg=kg1"><img src="zeichnungen/kg1_v_emma.jpg" alt="" />
-    <div class="mask"></div></a>
-<li class="grid-item kg1">
-    <a href="grossesbild.php?bild=kg1_v_leon.jpg&vorname=LEON&kg=kg1"><img src="zeichnungen/kg1_v_leon.jpg" alt="" />
-    <div class="mask"></div></a>
-<li class="grid-item kg1">
-    <a href="grossesbild.php?bild=kg1_v_moritz.jpg&vorname=MORITZ&kg=kg1"><img src="zeichnungen/kg1_v_moritz.jpg" alt="" />
-    <div class="mask"></div></a>
-<li class="grid-item kg1">
-    <a href="grossesbild.php?bild=kg1_v_ellab.jpg&vorname=ELLAB&kg=kg1"><img src="zeichnungen/kg1_v_ellab.jpg" alt="" />
-    <div class="mask"></div></a>
-<li class="grid-item kg1">
-    <a href="grossesbild.php?bild=kg1_v_mailo.jpg&vorname=MAILO&kg=kg1"><img src="zeichnungen/kg1_v_mailo.jpg" alt="" />
-    <div class="mask"></div></a>
-<li class="grid-item kg1">
-    <a href="grossesbild.php?bild=kg1_v_arya.jpg&vorname=ARYA&kg=kg1"><img src="zeichnungen/kg1_v_arya.jpg" alt="" />
-    <div class="mask"></div></a>
-<li class="grid-item kg1">
-    <a href="grossesbild.php?bild=kg1_v_saphira.jpg&vorname=SAPHIRA&kg=kg1"><img src="zeichnungen/kg1_v_saphira.jpg" alt="" />
-    <div class="mask"></div></a>
-<li class="grid-item kg3">
-    <a href="grossesbild.php?bild=kg3_v_liam.jpg&vorname=LIAM&kg=kg3"><img src="zeichnungen/kg3_v_liam.jpg" alt="" />
-    <div class="mask"></div></a>
-<li class="grid-item kg1">
-    <a href="grossesbild.php?bild=kg1_v_karl.jpg&vorname=KARL&kg=kg1"><img src="zeichnungen/kg1_v_karl.jpg" alt="" />
-    <div class="mask"></div></a>
-<li class="grid-item kg3">
-    <a href="grossesbild.php?bild=kg3_v_lorien.jpg&vorname=LORIEN&kg=kg3"><img src="zeichnungen/kg3_v_lorien.jpg" alt="" />
-    <div class="mask"></div></a>
-<li class="grid-item kg3">
-    <a href="grossesbild.php?bild=kg3_v_mattis.jpg&vorname=MATTIS&kg=kg3"><img src="zeichnungen/kg3_v_mattis.jpg" alt="" />
-    <div class="mask"></div></a>
-<li class="grid-item kg1">
-    <a href="grossesbild.php?bild=kg1_v_luna.jpg&vorname=LUNA&kg=kg1"><img src="zeichnungen/kg1_v_luna.jpg" alt="" />
-    <div class="mask"></div></a>
-<li class="grid-item kg2">
-    <a href="grossesbild.php?bild=kg2_v_justus.jpg&vorname=JUSTUS&kg=kg2"><img src="zeichnungen/kg2_v_justus.jpg" alt="" />
-    <div class="mask"></div></a>
-<li class="grid-item kg3">
-    <a href="grossesbild.php?bild=kg3_v_miriam.jpg&vorname=MIRIAM&kg=kg3"><img src="zeichnungen/kg3_v_miriam.jpg" alt="" />
+    <a href="grossesbild.php?bild=kg6_v_paulina.jpg&vorname=PAULINA&kg=kg6"><img src="zeichnungen/kg6_v_paulina.jpg" alt="" />
     <div class="mask"></div></a>
