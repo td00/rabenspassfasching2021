@@ -107,13 +107,13 @@ function goBack() {
 	
 							</div>
 							<div class="col_wrap"><br /><br />
-							<a href="https://www.rabenspass.de/index.php?zeige=impressum">Impressum</a>
+							<a href="https://www.rabenspass.de/impressum/">Impressum</a>
 							</div>
 						</div>
 					</div>
 					<div class="footer-bottom">
 						<div class="holder">
-						<p><a href="https://thiesmueller.de">Webseiten Realisierung</a> | <a href="https://www.rabenspass.de/index.php?zeige=impressum">Impressum</a></p>
+						<p><a href="https://thiesmueller.de">Webseiten Realisierung</a> | <a href="https://www.rabenspass.de/impressum/">Impressum</a></p>
 						</div>
 					</div>
 				</div>
