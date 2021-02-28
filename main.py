@@ -62,7 +62,9 @@ class Picture:
             #familyname exist, fill till age
             familyName = ''
             index += 1
-            while(( not (workingArray[index].lower() == 'a' )) or (workingArray[index][-4:-3] == '.')):
+            while( not (workingArray[index][-4:-3] == '.')):
+
+                print(workingArray[index])
                 if(not (workingArray[index].lower() == 'v' )):
                     if(familyName == ''):
                         familyName = workingArray[index].upper()
